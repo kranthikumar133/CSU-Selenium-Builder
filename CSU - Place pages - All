@@ -1,0 +1,1976 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://search.ancestry.com/Default.aspx"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "showSignIn"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "username"
+      },
+      "text": "Stevelive"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "password"
+      },
+      "text": "testing"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "signin"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Explore by Location"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "USA"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Alabama"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Alabama"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Alaska"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Alaska"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Arizona"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Arizona"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Arkansas"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Arkansas"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "California"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "California"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Colorado"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Colorado"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Connecticut"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Connecticut"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Delaware"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Delaware"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "District of Columbia"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "District of Columbia"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Florida"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Florida"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Georgia"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Georgia"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Hawaii"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Hawaii"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Idaho"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Idaho"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Illinois"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Illinois"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Iowa"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Iowa"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Kansas"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Kansas"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Kentucky"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Kentucky"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Louisiana"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Louisiana"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Maine"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Maine"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Maryland"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Maryland"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Massachusetts"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Massachusetts"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='panelShown']/div[4]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Michigan"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Michigan"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Minnesota"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Minnesota"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Mississippi"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Mississippi"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Missouri"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Missouri"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Montana"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Montana"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Nebraska"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Nebraska"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Nevada"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Nevada"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "New Hampshire"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "New Hampshire"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "New Jersey"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "New Jersey"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "New Mexico"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "New Mexico"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "New York"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "New York"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "North Carolina"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "North Carolina"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "North Dakota"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "North Dakota"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Ohio"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Ohio"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Oklahoma"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Oklahoma"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Oregon"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Oregon"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Pennsylvania"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Pennsylvania"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Rhode Island"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Rhode Island"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "South Carolina"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "South Carolina"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "South Dakota"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "South Dakota"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Tennessee"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Tennessee"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Texas"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Texas"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Utah"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Utah"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Vermont"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Vermont"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Virginia"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Virginia"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Washington"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Washington"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "West Virginia"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "West Virginia"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Wisconsin"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Wisconsin"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Wyoming"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Wyoming"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "USA"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "USA"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab1"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Channel Islands"
+      }
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab1"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "England"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "England"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab1"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Ireland"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Ireland"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab1"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Isle of Man"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Isle of Man"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab1"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Northern Ireland"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Northern Ireland"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab1"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Scotland"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Scotland"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab1"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Wales"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Wales"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab1"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "United Kingdom"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "United Kingdom"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Albania"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Albania"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Austria"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Austria"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Belgium"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Belgium"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Bulgaria"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Bulgaria"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Czech Republic"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Czech Republic"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Denmark"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Denmark"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Finland"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Finland"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "France"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "France"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Russia"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Russia"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Germany"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Germany"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Greece"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Greece"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Hungary"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Hungary"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='mapsTabPanel2']//a[.='Ireland']"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Ireland"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Italy"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Italy"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Netherlands"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Netherlands"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Norway"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Norway"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Poland"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Poland"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Portugal"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Portugal"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Romania"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Romania"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Spain"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Spain"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Sweden"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Sweden"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Switzerland"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Switzerland"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Yugoslavia"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Yugoslavia"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Europe"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Europe"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab3"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Alberta"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Alberta"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab3"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "British Columbia"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "British Columbia"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab3"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Manitoba"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Manitoba"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab3"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "New Brunswick"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "New Brunswick"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab3"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Newfoundland and Labrador"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Newfoundland and Labrador"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab3"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Northwest Territories"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Northwest Territories"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab3"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Nova Scotia"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Nova Scotia"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab3"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Nunavut"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Nunavut"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='panelShown']/div[4]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab3"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Ontario"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Ontario"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab3"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Prince Edward Island"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Prince Edward Island"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab3"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Quebec"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Quebec"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='panelShown']/div[5]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab3"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Saskatchewan"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Saskatchewan"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.header-buttons"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab3"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Yukon"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Yukon"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab3"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Canada"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Canada"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab4"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Australian Capital Territory"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Australian Capital Territory"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab4"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "New South Wales"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "New South Wales"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab4"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Northern Territory"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Northern Territory"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab4"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Queensland"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Queensland"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab4"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "South Australia"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "South Australia"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab4"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Tasmania"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Tasmania"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab4"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Victoria"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Victoria"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='panelShown']/div[4]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab4"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Western Australia"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Western Australia"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab4"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "New Zealand"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "New Zealand"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab4"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Australia"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Australia"
+    },
+    {
+      "type": "goBack"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}

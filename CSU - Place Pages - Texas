@@ -1,0 +1,169 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://search.ancestry.com/search/"
+    },
+    {
+      "type": "clickElement",
+      "step_name": "23.",
+      "locator": {
+        "type": "id",
+        "value": "showSignIn"
+      }
+    },
+    {
+      "type": "setElementText",
+      "step_name": "24.",
+      "locator": {
+        "type": "id",
+        "value": "username"
+      },
+      "text": "stevelive"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "password"
+      },
+      "text": "testing"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "signin"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Explore by Location"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Recent additions include:"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.innerMapContainer.us > p"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Texas\"]"
+      }
+    },
+    {
+      "type": "assertTextPresent",
+      "text": "Texas"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Select another state or region"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Narrow by region"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "More Help"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "HISTORY"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "RESOURCES"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Data Collections"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "contentWrapper"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "HISTORY"
+      }
+    },
+    {
+      "type": "waitForTextPresent",
+      "text": "Texas in Brief"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Texas in Brief"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "RESOURCES"
+      }
+    },
+    {
+      "type": "waitForTextPresent",
+      "text": "Resources for Further Family Research"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Resources for Further Family Research"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//p[@class='searchBtn']//a[.='Search']"
+      }
+    },
+    {
+      "type": "assertTextPresent",
+      "text": "Search"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//p[@class='searchBtn']//a[.='Search']"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "sfs_LastNameExactModule"
+      },
+      "text": "jones"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input.ancBtn.orange"
+      }
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}

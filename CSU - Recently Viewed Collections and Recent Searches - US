@@ -1,0 +1,119 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://search.ancestry.com/Default.aspx"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "showSignIn"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "username"
+      },
+      "text": "Stevelive"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "password"
+      },
+      "text": "testing"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "signin"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Recently Viewed Collections"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='divRecentViewedCollections']//a[.='+ See More']"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "My Recently Viewed Data Collections"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "recently viewed records"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Recently Viewed Records"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "recent searches"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "My Recent Searches"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "navSearch"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "navLinkAllCategories"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Recent Searches"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "+ SEE MORE"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "My Recent Searches"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}

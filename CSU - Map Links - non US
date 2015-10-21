@@ -1,0 +1,1118 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://search.ancestry.com/Default.aspx"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "showSignIn"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "username"
+      },
+      "text": "stevelive"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "showSignIn"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "password"
+      },
+      "text": "testing"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "signin"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab1"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Scotland\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Scotland"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab1"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//map[@id='ukMapLarge']/area[6]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Isle of Man"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab1"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Northern Ireland\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Northern Ireland"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab1"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Ireland\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Ireland"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab1"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Wales\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Wales"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab1"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"England\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "England"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab1"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//map[@id='ukMapLarge']/area[2]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Channel Islands"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab1"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Russia\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Russia"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Finland\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Finland"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Sweden\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Sweden"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "img.imgEU"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Norway\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Norway"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Denmark\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Denmark"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Netherlands\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Netherlands"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Belgium\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Belgium"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"France\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "France"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Spain\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Spain"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Portugal\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Portugal"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Italy\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Italy"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Germany\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Germany"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Czech Republic\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Czech Republic"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Austria\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Austria"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Yugoslavia\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Yugoslavia"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Albania\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Albania"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Greece\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Greece"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Bulgaria\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Bulgaria"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Romania\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Romania"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Hungary\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Hungary"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Poland\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Poland"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab3"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Yukon\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Yukon"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab3"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"British Columbia\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "British Columbia"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab3"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Northwest Territories\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Northwest Territories"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab3"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Nunavut\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Nunavut"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab3"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Alberta\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Alberta"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab3"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Saskatchewan\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Saskatchewan"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab3"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Manitoba\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Manitoba"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab3"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Ontario\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Ontario"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab3"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Quebec\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Quebec"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab3"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Newfoundland and Labrador\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Newfoundland and Labrador"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab3"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//map[@id='caMapLarge']/area[5]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "New Brunswick"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab3"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//map[@id='caMapLarge']/area[9]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Nova Scotia"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab3"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//map[@id='caMapLarge']/area[13]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Prince Edward Island"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab4"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Western Australia\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Western Australia"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab4"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Northern Territory\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Northern Territory"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab4"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"South Australia\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "South Australia"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab4"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Queensland\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Queensland"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab4"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"New South Wales\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "New South Wales"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab4"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Australian Capital Territory\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Australian Capital Territory"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab4"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Tasmania\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Tasmania"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab4"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Victoria\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Victoria"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mapsTab4"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"New Zealand\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "New Zealand"
+    },
+    {
+      "type": "goBack"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}

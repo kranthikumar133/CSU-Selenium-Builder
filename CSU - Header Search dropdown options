@@ -1,0 +1,191 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://search.ancestry.com/Default.aspx"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "showSignIn"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "username"
+      },
+      "text": "stevelive"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "password"
+      },
+      "text": "testing"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "signin"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "navSearch"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "navLinkAllCategories"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Search"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "navSearch"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "navLinkCensus"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Census and Voter Lists"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "navSearch"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "navLinkBMD"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Birth, Marriage & Death"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "navSearch"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "navLinkImmigration"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Immigration & Travel"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "navSearch"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "navLinkPublicMemberTrees"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Public Member Trees"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "navSearch"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "navLinkMilitary"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Military Records"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "navSearch"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "navLinkCardCatalog"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Card Catalog"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "navSearch"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "navLinkMemberDirectory"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Member Directory"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}

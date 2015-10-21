@@ -1,0 +1,671 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://search.ancestry.com/search/"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "showSignIn"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "username"
+      },
+      "text": "stevelive"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "password"
+      },
+      "text": "testing"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "signin"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Special Collections"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "a.collGroup"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Birth, Marriage & Death"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "li > ul > li > a"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Birth, Baptism & Christening"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@class='ulHistRecs']//a[.='Marriage & Divorce']"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Marriage & Divorce"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@class='ulHistRecs']/li[1]/ul/li[3]/a"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Death, Burial, Cemetery & Obituaries"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@class='ulHistRecs']//a[.='Census & Voter Lists']"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Census and Voter Lists"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "U.S. Federal Census Collection"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "U.S. Federal Census Collection"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "UK Census Collection"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "UK Census Collection"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Canadian Census Collection"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Canadian Census Collection"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "More..."
+      }
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@class='ulHistRecs']//a[.='Immigration & Travel']"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Immigration & Travel"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Passenger Lists"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Passenger Lists"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@class='ulHistRecs']/li[3]/ul/li[2]/a"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Citizenship & Naturalization"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@class='ulHistRecs']//a[.='Border Crossings & Passports']"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Border Crossings and Passports"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@class='ulHistRecs']/li[3]/ul/li[4]/a"
+      }
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@class='ulHistRecs']//a[.='Military']"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Military Records"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Draft, Enlistment and Service"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Draft, Enlistment and Service"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Casualties"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Casualties"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@class='ulHistRecs']/li[4]/ul/li[3]/a"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Soldier, Veteran & Prisoner Rolls & Lists"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@class='ulHistRecs']/li[4]/ul/li[4]/a"
+      }
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@class='ulHistRecs']/li[5]/a"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Schools, Directories & Church Histories"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@class='ulHistRecs']//a[.='City & Area Directories']"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "City and Area Directories"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@class='ulHistRecs']/li[5]/ul/li[2]/a"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Church Histories & Records"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@class='ulHistRecs']/li[5]/ul/li[4]/a"
+      }
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@class='ulHistRecs']//a[.='Tax, Criminal, Land & Wills']"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Wills, Probates, Land, Tax & Criminal"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Land Records"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Land Records"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Tax Lists"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Tax Lists"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@class='ulHistRecs']/li[6]/ul/li[3]/a"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Court, Governmental & Criminal Records"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@class='ulHistRecs']/li[6]/ul/li[4]/a"
+      }
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "li.last > a.collGroup"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Reference, Dictionaries & Almanacs"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "General Reference Materials"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "General Reference Materials"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//li[@class='last']/ul/li[2]/a"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Research Guides & Finding Aids"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//li[@class='last']//a[.='Dictionaries & Encyclopedias']"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Dictionaries & Encyclopedias"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//li[@class='last']//a[.='More...']"
+      }
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='divMiniCardCatalog']//a[.='Public Member Trees']"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Public Member Trees"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='divMiniCardCatalog']//a[.='Stories, Memories & Histories']"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Stories, Memories & Histories"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Newspapers"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Newspapers"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='divMiniCardCatalog']//a[.='Periodicals & Magazines']"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Periodicals & Magazines"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Pictures"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Pictures"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='divMiniCardCatalog']//a[.='Maps, Atlases & Gazetteers']"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Maps, Atlases & Gazetteers"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "African American Collections"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "AFRICAN AMERICAN RECORDS"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "American Indian Records"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "American Indian Records"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Jewish Family History"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "JEWISH FAMILY HISTORY COLLECTION"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "New York 400th Anniversary"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "NEW YORK STATE RECORDS"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Quaker Collections"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "THE QUAKER COLLECTION"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "VIEW ALL IN CARD CATALOG"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Card Catalog"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "+ CARD CATALOG"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Card Catalog"
+    },
+    {
+      "type": "goBack"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}

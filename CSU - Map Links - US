@@ -1,0 +1,761 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://search.ancestry.com/"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "showSignIn"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "username"
+      },
+      "text": "stevelive"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "password"
+      },
+      "text": "testing"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "signin"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Washington\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Washington"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Oregon\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Oregon"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"California\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "California"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Idaho\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Idaho"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Nevada\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Nevada"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Arizona\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Arizona"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Utah\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Utah"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Montana\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Montana"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Wyoming\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Wyoming"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Colorado\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Colorado"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"New Mexico\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "New Mexico"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Texas\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Texas"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Oklahoma\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Oklahoma"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Kansas\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Kansas"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Nebraska\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Nebraska"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"North Dakota\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "North Dakota"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"South Dakota\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "South Dakota"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Minnesota\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Minnesota"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Iowa\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Iowa"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Missouri\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Missouri"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Arkansas\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Arkansas"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Louisiana\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Louisiana"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Mississippi\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Mississippi"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Illinois\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Illinois"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Wisconsin\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Wisconsin"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Michigan\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Michigan"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Indiana\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Indiana"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Kentucky\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Kentucky"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Tennessee\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Tennessee"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Alabama\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Alabama"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Florida\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Florida"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Georgia\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Georgia"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"South Carolina\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "South Carolina"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"North Carolina\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "North Carolina"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Virginia\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Virginia"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"West Virginia\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "West Virginia"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Ohio\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Ohio"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Pennsylvania\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Pennsylvania"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"New York\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "New York"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//map[@id='usMapLarge']/area[54]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Vermont"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//map[@id='usMapLarge']/area[35]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "New Hampshire"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Maine\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Maine"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//map[@id='usMapLarge']/area[26]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Massachusetts"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//map[@id='usMapLarge']/area[47]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Rhode Island"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//map[@id='usMapLarge']/area[8]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Connecticut"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//map[@id='usMapLarge']/area[37]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "New Jersey"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//map[@id='usMapLarge']/area[10]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Delaware"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//map[@id='usMapLarge']/area[24]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Maryland"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"District of Columbia\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "District of Columbia"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Hawaii\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Hawaii"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "area[alt=\"Alaska\"]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Alaska"
+    },
+    {
+      "type": "goBack"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
